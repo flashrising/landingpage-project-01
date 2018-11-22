@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+@font-face{
+	src: url('../Fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+.center{
+	min-width: 1200px;
+	width: 1200px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+/*Header*/
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #212343;
+}
+
+.header img{
+	margin: 15px;
+}
+
+.container-banner{
+	min-width: 1200px;;
+	width: 100%;
+	height: 557px;
+	background-image:url('../images/header_bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+	/*text-align: right;*/
+}
+/*Formulario*/
+.form{
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top:-15px;
+	border: 8px solid #ccc;
+	background-color:white;
+
+}
+
+.form h2{
+	font-weight: normal;
+	color: #999999;
+	font-size:21px;
+	padding: 10px;
+}
+
+.input-container span, .form p{
+	display: inline-block;
+	width: 80%;
+	color: #BBBBBB;
+	font-size: 17px;
+	margin-top: 5px;
+	margin-left: 10px;
+
+}
+
+.input-container input[type=text]{
+	margin-top: 8px;
+	margin-left: 10px;
+	width: 344px;
+	height:55px;
+	border: 1px solid #ccc;
+}
+.form p{
+	margin: 20px 0;
+}
+
+.input-container input[type=submit]{
+	width: 280px;
+	height: 56px;
+	color: white;	
+	font-size: 25px;
+	display: inline-block;
+	background-color: #363A6D;
+	border:none;
+}
+
+.container-submit{
+	text-align: center;
+}
+
+.form input[type=submit]:hover{
+background-color: #323665;
+}
+/*Lista*/
+.container-list{
+	float:left;
+	padding: 30px;
+	margin-top: 100px;
+	width: 519px;
+	height:270px;
+	background-color:rgba(33, 35, 67, 0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+
+.container-list ul li{
+	color:white;
+	padding: 15px;
+}
+/*Seção de apresentação */
+.container-2{
+	min-width: 1220px;
+	padding: 40px 0px;
+	background-color:#ddd;
+	text-align: center;
+}
+.container-2 h2{
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.container-2 p{
+	display: inline-block;
+	margin: 15px 0px;
+	width: 698px;
+	text-align: justify;
+}
+
+.arrow{
+	position: relative;
+	top:60px;
+	left:50%;
+	margin-left: -20px;
+	width: 40px;
+	height:40px;
+	background-image: url('../images/arrow.png');
+	background-size: 100% 100%;
+
+}
+/*Sessão de detalhes*/
+.section-1{
+	padding: 90px 0;
+
+}
+
+.section-1 h2{
+	text-align:center;
+	color: #462663;
+	font-weight: normal;
+}
+
+.container-section{
+	margin-top:40px;
+	text-align:center;
+}
+
+.container-single{
+	float: left;
+	width: 33.333%;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.container-single img{
+	width:75px;
+}
+.text-container-single h2{
+	padding:10px;
+}
+
+/*Rodapé*/
+.footer{
+	clear:both;
+	padding: 30px 0;
+	border-top: 4px solid #888888;
+	text-align:center;
+	color:#888;
+}
+
+.footer p{
+	margin-top:8px;
+}
